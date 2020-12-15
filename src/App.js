@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import "./Header.css";
+import Image from './Image';
 
 function App() {
   return (
@@ -10,11 +11,12 @@ function App() {
      <div className="app__header">
       <Header />
      </div>
-     {/* Body */}
-     <div className="app__body">
 
+     {/* ImageTop */}
+     <div className="app__image">
+       <Image />
      </div>
-
+    
     </div>
   );
 }

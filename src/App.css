@@ -12,15 +12,6 @@ body {
   place-items: center;
 }
 
-.app__body {
-  /* make background black later */
-  background-color: black;
-  margin: 0;
-  display: grid;
-  place-items: center;
-  z-index: -1;
-}
-
 .app__container {
   display: flex;
   background-color: black;
@@ -30,3 +21,4 @@ body {
   color: white;
   z-index: 50;
 }
+
