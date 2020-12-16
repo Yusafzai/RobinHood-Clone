@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import "./Header.css";
 import Image from './Image';
+import Black from './Black';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
        <Image />
      </div>
     
+    {/* Sldier */}
+    <Black />
+
     </div>
   );
 }

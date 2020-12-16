@@ -1,0 +1,108 @@
+.black__wrapper {
+    background-color: #c3f53c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.black__image {
+    background-color: black;
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+}
+
+.black__phone {
+    background-color: black;
+    position: absolute;
+    top: 529px;
+    left: -200px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 600px;
+    padding-right: 800px;
+}
+
+.white {
+    font-weight: 500;
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    top: 1840px;
+    left: 730px;
+}
+
+.white__para {
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 1926px;
+    left: 730px;
+}
+
+.white__tagOne {
+    position: absolute;
+    top: 1900px;
+    left: 260px;
+    font-size: 25px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+.white__tagOne:hover,
+  .white__tagOne:active {
+      color: #3ecc16;
+  }
+
+  .white__tagTwo {
+    position: absolute;
+    top: 1950px;
+    left: 231px;
+    font-size: 25px;
+    color: #464e51;
+    text-decoration: none;
+}
+.white__tagTwo:hover,
+  .white__tagTwo:active {
+      color: #3ecc16;
+  }
+
+  .white__tagThree {
+    position: absolute;
+    top: 2000px;
+    left: 210px;
+    font-size: 25px;
+    color: #464e51;
+    text-decoration: none;
+}
+.white__tagThree:hover,
+  .white__tagThree:active {
+      color: #3ecc16;
+  }
+
+  .white__arrowUp {
+    position: absolute;
+    top: 1850px;
+    left: 290px;
+    font-size: 30px;
+    color: #464e51;
+    text-decoration: none;
+  }
+  .white__arrowUp:hover,
+  .white__arrowUp:active {
+      color: #3ecc16;
+  }
+
+  .white__arrowDown {
+    position: absolute;
+    top: 2060px;
+    left: 285px;
+    font-size: 30px;
+    color: #464e51;
+    text-decoration: none;
+  }
+  .white__arrowDown:hover,
+  .white__arrowDown:active {
+      color: #3ecc16;
+  }
