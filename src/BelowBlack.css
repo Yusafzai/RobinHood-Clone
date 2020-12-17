@@ -1,0 +1,169 @@
+.belowblack__wrapper {
+    background-color: #c3f53c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.belowblack__image {
+    background-color: #f0ebe7;
+    position: absolute;
+    top: 2310px;
+    left: 0px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 770px;
+    padding-right: 800px;
+}
+
+.belowblack__textTop {
+    position: absolute;
+    top: 2400px;
+    left: 90px;
+    font-weight: 600;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.belowblack__textMidFirst {
+    position: absolute;
+    top: 2470px;
+    left: 90px;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.belowblack__textMidSecond {
+    position: absolute;
+    top: 2470px;
+    left: 320px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #837f81;
+    text-decoration: none;
+}
+.belowblack__textMidSecond:hover,
+  .belowblack__textMidSecond:active {
+      color: #3ecc16;
+  }
+
+.belowblack__textMidThird {
+    position: absolute;
+    top: 2470px;
+    left: 520px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #837f81;
+    text-decoration: none;
+}
+.belowblack__textMidThird:hover,
+  .belowblack__textMidThird:active {
+      color: #3ecc16;
+  }
+
+.belowblack__flipFirst {
+    position: absolute;
+    top: 2470px;
+    left: 640px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #837f81;
+    text-decoration: none;
+}
+.belowblack__flipFirst:hover,
+  .belowblack__flipFirst:active {
+      color: #3ecc16;
+  }
+
+.belowblack__flipBlank {
+    position: absolute;
+    top: 2463px;
+    left: 700px;
+    font-weight: 200;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+}
+
+.belowblack__flipLast {
+    position: absolute;
+    top: 2469px;
+    left: 720px;
+    font-weight: 500;
+    font-size: 24px;
+    color:#ff90af;
+    text-decoration: none;
+}
+.belowblack__flipLast:hover,
+  .belowblack__flipLast:active {
+      color: #f1618a;
+  }
+
+.belowblack__para {
+    position: absolute;
+    top: 2570px;
+    left: 86px;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.belowblack__button {
+    top: 2850px;
+    left: 90px;
+    position: absolute;
+    font-weight: 600;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    margin-right: 14px;
+}
+.belowblack__button:hover {
+    background-color:  rgb(44, 44, 44);
+}
+.belowblack__button:active {
+    background-color:   rgb(44, 44, 44);
+    transform: translateY(4px);
+}
+
+
+.belowblack__Info {
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    top: 2960px;
+    left: 67px;
+    position: absolute;
+    font-weight: 500;
+    color: gray;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.belowblack__Info:hover,
+  .belowblack__Info:active {
+      color: #3ecc16;
+  }
+
+  .extra {
+    position: absolute;
+    top: 2960px;
+    left: 986px;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+  }

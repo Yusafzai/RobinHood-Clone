@@ -5,6 +5,9 @@
     align-items: center;
     height: 64px;
     border-bottom: 1px solid lightgray;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
   }
   
   .header__logo {

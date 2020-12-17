@@ -1,6 +1,6 @@
 import React from 'react';
 import './Black.css';
-import Lege from './Phone2.png';
+import Lege from './images/Phone2.png';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 

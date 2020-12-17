@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Image.css";
-import Logo from './Phone.jpg';
-import Laga from './Empty.jpg';
+import Logo from './images/BgTp.png';
+import Laga from './images/Empty.jpg';
+import Video from './images/Video.mp4'
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 function Image() {
@@ -14,8 +15,27 @@ function Image() {
             <p className="top-para">Commission-free investing, plus the tools <br/> you need to put your money in motion. Sign <br/> up and get your first stock for free. Certain <br/> limitations apply.</p>
             <button class="image__button">Sign Up</button>
              <a  className="image__info"  href="/"><AiOutlineInfoCircle size={32}/>&nbsp; Free Stock Disclosure</a>
+            
+
             </div>
         </div>
+
+         <div className="image__video">
+    <video autoPlay loop muted
+    style={{
+        position: "absolute",
+        width: "50%",
+        left: "67.7%",
+        top: "47.6%",
+        height: "72%",
+        objectFit: "cover",
+        transform: "translate(-50%, -50%)",
+        zIndex: "-1"
+    }}
+    >
+        <source src={Video} type="video/mp4"/>
+    </video>
+         </div>
 
         <div className="image__below">
             <h1 className="image__belowText">Break Free from Commission Fees</h1>

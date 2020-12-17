@@ -3,6 +3,7 @@ import Header from './Header';
 import "./Header.css";
 import Image from './Image';
 import Black from './Black';
+import BelowBlack from './BelowBlack';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
     
     {/* Sldier */}
     <Black />
-
+    {/* Below Slider */}
+    <BelowBlack />
     </div>
   );
 }

@@ -261,3 +261,16 @@
       color: #3ecc16;
   }
 
+.image__top {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 1;
+}
+
+/* .image__video {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  background-color: green;
+} */
