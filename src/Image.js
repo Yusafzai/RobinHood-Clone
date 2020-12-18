@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Image.css";
-import Logo from './images/BgTp.png';
+import Logo from './images/phoneBtw.png';
 import Laga from './images/Empty.jpg';
 import Video from './images/Video.mp4'
 import { AiOutlineInfoCircle } from 'react-icons/ai';
@@ -13,8 +13,8 @@ function Image() {
             <img src={Logo} />
             <h1 class="top-left">Investing for <br/> Everyone</h1>
             <p className="top-para">Commission-free investing, plus the tools <br/> you need to put your money in motion. Sign <br/> up and get your first stock for free. Certain <br/> limitations apply.</p>
-            <button class="image__button">Sign Up</button>
-             <a  className="image__info"  href="/"><AiOutlineInfoCircle size={32}/>&nbsp; Free Stock Disclosure</a>
+            <a href="https://signup.robinhood.com/"><button class="image__button">Sign Up</button></a>
+             <a  className="image__info"  href="https://rbnhd.co/freestock"><AiOutlineInfoCircle size={32}/>&nbsp; Free Stock Disclosure</a>
             
 
             </div>
@@ -24,9 +24,9 @@ function Image() {
     <video autoPlay loop muted
     style={{
         position: "absolute",
-        width: "50%",
-        left: "67.7%",
-        top: "47.6%",
+        width: "49%",
+        left: "67.9%",
+        top: "47.1%",
         height: "72%",
         objectFit: "cover",
         transform: "translate(-50%, -50%)",
@@ -39,8 +39,8 @@ function Image() {
 
         <div className="image__below">
             <h1 className="image__belowText">Break Free from Commission Fees</h1>
-            <p className="image__belowPara">Make unlimited commission-free trades in stocks, ETFs, and options with <br/>&nbsp; &nbsp; Robinhood Financial, as well as buy and sell cryptocurrencies with <br/>&nbsp; &nbsp; Robinhood Crypto. See our <a className="fee__tag" href="/">fee schedule</a> to learn more about cost.</p>
-            <a  className="image__belowInfo"  href="/"><AiOutlineInfoCircle size={32}/>&nbsp; Commissions Disclosure</a>
+            <p className="image__belowPara">Make unlimited commission-free trades in stocks, ETFs, and options with <br/>&nbsp; &nbsp; Robinhood Financial, as well as buy and sell cryptocurrencies with <br/>&nbsp; &nbsp; Robinhood Crypto. See our <a className="fee__tag" href="https://cdn.robinhood.com/assets/robinhood/legal/RHF%20Fee%20Schedule.pdf">fee schedule</a> to learn more about cost.</p>
+            <a  className="image__belowInfo"  href="https://rbnhd.co/freestock"><AiOutlineInfoCircle size={32}/>&nbsp; Commissions Disclosure</a>
         </div>
 
         <div className="image__end">
@@ -57,7 +57,7 @@ function Image() {
               {/* Third */}
               <h1 className="image__endTextFour">Trade in Real Time</h1>
               <p className="image__endParaFour">Trades placed during market <br/> hours are executed at that time, <br/> so you’ll always know the share <br/> price.</p>
-              <a  className="image__endLink"  href="/"><AiOutlineInfoCircle size={32}/>&nbsp; Fractional Shares Disclosure</a>
+              <a  className="image__endLink"  href="https://cdn.robinhood.com/assets/robinhood/legal/Addendum%20(FINRA%201-28-20).pdf"><AiOutlineInfoCircle size={32}/>&nbsp; Fractional Shares Disclosure</a>
         </div>
         </div>
     )

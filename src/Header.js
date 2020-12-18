@@ -8,25 +8,25 @@ function Header() {
            
             {/* logo */}
             <div className="header__logo">
-                <img src={Logo} width={160} />
+                <a href="/"><img src={Logo} width={160} /></a>
             </div>
 
            {/* menu */}
            <div className="header__menuItems">
-              <a href="/">Products</a>
-              <a href="/">Learn</a>
-              <a href="/">Support</a>
-              <a href="/">Who we are</a>
+              <a href="https://robinhood.com/us/en/about/#our-products">Products</a>
+              <a href="https://learn.robinhood.com/">Learn</a>
+              <a href="https://robinhood.com/us/en/support/">Support</a>
+              <a href="https://robinhood.com/us/en/about-us/">Who we are</a>
            </div>
 
         {/* Login */}
         <div className="header__log">
-             <a href="/">Log In</a>
+             <a href="https://robinhood.com/login">Log In</a>
         </div>
 
         {/* SignUp */}
         <div className="header__sign">
-        <button class="header__button">Sign Up</button>
+        <a href="https://signup.robinhood.com/"><button  class="header__button">Sign Up</button></a>
         </div>
 
         </div>

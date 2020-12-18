@@ -12,8 +12,8 @@
     font-weight: 500;
     font-size: 55px;
     position: absolute;
-    top: 170px;
-    left: 150px;
+    top: 115px;
+    left: 130px;
   }
 
   .top-para {
@@ -22,20 +22,20 @@
     font-size: 25px;
     position: absolute;
     padding: 20px;
-    top: 300px;
-    left: 130px;
+    top: 250px;
+    left: 109px;
     justify-content: space-between;
   }
 
   .image__button {
-    top: 500px;
-    left: 150px;
+    top: 450px;
+    left: 124px;
     position: absolute;
     font-weight: 600;
     font-family: sans-serif;
     display: inline-block;
-    padding: 10px 25px;
-    font-size: 20px;
+    padding: 15px 32px;
+    font-size: 17px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -61,8 +61,8 @@
     justify-content: space-between;
     display: flex;
     text-decoration: none;
-    top: 580px;
-    left: 124px;
+    top: 540px;
+    left: 94px;
     position: absolute;
     font-weight: 500;
     color: black;
@@ -266,6 +266,7 @@
   top: 50px;
   left: 0px;
   z-index: 1;
+  
 }
 
 /* .image__video {

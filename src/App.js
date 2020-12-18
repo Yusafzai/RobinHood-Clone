@@ -4,6 +4,7 @@ import "./Header.css";
 import Image from './Image';
 import Black from './Black';
 import BelowBlack from './BelowBlack';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -20,9 +21,20 @@ function App() {
      </div>
     
     {/* Sldier */}
+    <div className="app__black">
     <Black />
+    </div>
+
     {/* Below Slider */}
+    <div className="app__belowblack">
     <BelowBlack />
+    </div>
+
+     {/* Footer */}
+    <div className="app__footer">
+     <Footer  />
+    </div>
+
     </div>
   );
 }

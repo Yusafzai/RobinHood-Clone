@@ -113,7 +113,7 @@
 }
 
 .belowblack__button {
-    top: 2850px;
+    top: 2750px;
     left: 90px;
     position: absolute;
     font-weight: 600;
@@ -145,8 +145,8 @@
     justify-content: space-between;
     display: flex;
     text-decoration: none;
-    top: 2960px;
-    left: 67px;
+    top: 2910px;
+    left: 60px;
     position: absolute;
     font-weight: 500;
     color: gray;
