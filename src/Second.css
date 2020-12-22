@@ -1,0 +1,55 @@
+.second__wrapper {
+   height: 40vh;
+   width: 100%;
+   border-bottom: 1px solid black;
+   z-index: 1;
+}
+
+.second__textOne {
+    font-weight: 500;
+    position: absolute;
+    top: 780px;
+    left: 450px;
+    color: #000;
+}
+
+.second__paraOne {
+    font-size: 18px;
+    position: absolute;
+    top: 840px;
+    left: 420px;
+    color: #000;
+}
+
+.second__last {
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    top: 950px;
+    left: 550px;
+    position: absolute;
+    font-weight: 500;
+    color: gray;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.second__last:hover,
+.second__last:active {
+      color: #3ecc16;
+  }
+
+.second__line {
+    position: absolute;
+    top: 1050px;
+    left: 0px;
+    color: #000;
+}
+
+.second__link {
+    color: black;
+}
+.second__link:hover,
+.second__link:active {
+      color: #3ecc16;
+}

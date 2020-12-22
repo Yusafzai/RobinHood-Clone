@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Image.css";
-import Logo from './images/phoneBtw.png';
-import Laga from './images/Empty.jpg';
+import Logo from './images/New.png';
 import Video from './images/Video.mp4'
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
@@ -10,7 +9,7 @@ function Image() {
         <div className="image__full">
         <div className="image__wrapper">
             <div className="image__top">
-            <img src={Logo} />
+            <img className="image-iphone" src={Logo} />
             <h1 class="top-left">Investing for <br/> Everyone</h1>
             <p className="top-para">Commission-free investing, plus the tools <br/> you need to put your money in motion. Sign <br/> up and get your first stock for free. Certain <br/> limitations apply.</p>
             <a href="https://signup.robinhood.com/"><button class="image__button">Sign Up</button></a>
@@ -23,42 +22,18 @@ function Image() {
          <div className="image__video">
     <video autoPlay loop muted
     style={{
-        position: "absolute",
+        position: "relative",
         width: "49%",
-        left: "67.9%",
-        top: "47.1%",
         height: "72%",
         objectFit: "cover",
         transform: "translate(-50%, -50%)",
-        zIndex: "-1"
+        zIndex: "0"
     }}
     >
         <source src={Video} type="video/mp4"/>
     </video>
          </div>
-
-        <div className="image__below">
-            <h1 className="image__belowText">Break Free from Commission Fees</h1>
-            <p className="image__belowPara">Make unlimited commission-free trades in stocks, ETFs, and options with <br/>&nbsp; &nbsp; Robinhood Financial, as well as buy and sell cryptocurrencies with <br/>&nbsp; &nbsp; Robinhood Crypto. See our <a className="fee__tag" href="https://cdn.robinhood.com/assets/robinhood/legal/RHF%20Fee%20Schedule.pdf">fee schedule</a> to learn more about cost.</p>
-            <a  className="image__belowInfo"  href="https://rbnhd.co/freestock"><AiOutlineInfoCircle size={32}/>&nbsp; Commissions Disclosure</a>
-        </div>
-
-        <div className="image__end">
-              <img src={Laga} />
-              {/* Top */}
-              <h1 className="image__endText">Introducing Fractional Shares</h1>
-              <h2 className="image__endPara">Invest in thousands of stocks with as little as $1.</h2>
-              {/* First */}
-              <h1 className="image__endTextTwo">Invest Any Amount</h1>
-              <p className="image__endParaTwo">Choose how much you want to <br/> invest, and we’ll convert from <br/> dollars to parts of a whole <br/> share.</p>
-              {/* Second */}
-              <h1 className="image__endTextThree">Build a Balanced Portfolio</h1>
-              <p className="image__endParaThree">Customize your portfolio with <br/> pieces of different companies <br/> and funds to help reduce risk.</p>
-              {/* Third */}
-              <h1 className="image__endTextFour">Trade in Real Time</h1>
-              <p className="image__endParaFour">Trades placed during market <br/> hours are executed at that time, <br/> so you’ll always know the share <br/> price.</p>
-              <a  className="image__endLink"  href="https://cdn.robinhood.com/assets/robinhood/legal/Addendum%20(FINRA%201-28-20).pdf"><AiOutlineInfoCircle size={32}/>&nbsp; Fractional Shares Disclosure</a>
-        </div>
+    
         </div>
     )
 }

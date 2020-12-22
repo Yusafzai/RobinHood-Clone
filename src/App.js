@@ -5,6 +5,9 @@ import Image from './Image';
 import Black from './Black';
 import BelowBlack from './BelowBlack';
 import Footer from './Footer';
+import White from './White';
+import Second from './Second';
+
 
 function App() {
   return (
@@ -18,6 +21,16 @@ function App() {
      {/* ImageTop */}
      <div className="app__image">
        <Image />
+     </div>
+     
+     {/* Second */}
+     <div className="app__imageSecond">
+       <Second />
+     </div>
+       
+       {/* Below Image */}
+     <div className="app__imagebelow">
+       <White />
      </div>
     
     {/* Sldier */}
