@@ -8,7 +8,7 @@ function Header() {
            
             {/* logo */}
             <div className="header__logo">
-                <a href="/"><img src={Logo} width={160} /></a>
+                <a href="/"><img src={Logo} width={160} alt="headerimg" /></a>
             </div>
 
            {/* menu */}

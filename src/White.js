@@ -7,7 +7,7 @@ function White() {
     return (
         <div className="White__wrapper">
               <hr className="white__line" />
-              <img className="laga" src={Laga} />
+              <img className="laga" src={Laga} alt="white" />
               {/* Top */}
               <h1 className="white__textOne">Introducing Fractional Shares</h1>
               <h2 className="white__textTwo">Invest in thousands of stocks with as little as $1.</h2>

@@ -9,7 +9,7 @@ function Black() {
         <div className="black__wrapper">
         
             <div className="black__image">
-              <img className="black__phone" src={Lege} />
+              <img className="black__phone" src={Lege} alt="black" />
              </div>
              <div className="black__text">
                  <h1 className="white">Learn As You Grow</h1>

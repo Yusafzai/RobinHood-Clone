@@ -40,7 +40,7 @@ function Footer() {
          <button className="footer__subscribe">Subscribe</button>
         </div>
          
-        <img className="footer__image" src={Logo} />
+        <img className="footer__image" src={Logo} alt="footer" />
 
         <a href="https://brokercheck.finra.org/"><h1 className="footer__belowOne">Check the background of the firm on FINRA’s BrokerCheck</h1></a>
         <a href="https://cdn.robinhood.com/assets/robinhood/legal/RHF%20Customer%20Relationship%20Summary.pdf"><h1 className="footer__belowTwo">Brokerage Customer Relationship Summary</h1></a>

@@ -6,7 +6,7 @@ import { AiOutlineInfoCircle } from 'react-icons/ai';
 function BelowBlack() {
     return (
         <div className="belowblack__wrapper">
-             <img className="belowblack__image" src={Logo} />
+             <img className="belowblack__image" src={Logo} alt="imageOne" />
              <h1 className="belowblack__textTop">Our Products</h1>
              <a href="https://robinhood.com/us/en/about/gold/" className="belowblack__textMidFirst">Cash Management</a>
              <a href="https://robinhood.com/us/en/about/gold/" className="belowblack__textMidSecond">Stocks & Funds</a>
