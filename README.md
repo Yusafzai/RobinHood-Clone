@@ -1,2 +1,1 @@
- Project In Progress
- itsyusafzai@gmail.com
+Clone of Robinhood Hosted @ https://robinhood.netlify.app/
